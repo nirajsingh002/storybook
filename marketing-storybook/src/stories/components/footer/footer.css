@@ -1,0 +1,119 @@
+/**
+ * Footer styles
+**/
+
+.footer {
+    background: #F5F5F5;
+    font-family: Helvetica, Arial, sans-serif;
+    border: 1px solid #ccc9c9;
+    border-radius: 5px;
+}
+.footer .topSection {
+    padding: 50px 10px;
+}
+@media only screen and (min-width: 768px) {
+    .footer .topSection {
+        padding: 100px 50px;
+    }
+}
+.footer .bottomSection {
+    padding: 30px 20px;
+}
+@media only screen and (min-width: 768px) {
+    .footer .bottomSection {
+        padding: 20px 50px;
+    }
+}
+.footer h1 {
+    color: #333132;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 30px 0;
+}
+@media only screen and (min-width: 768px) {
+    .footer h1 {
+        font-size: 36px;
+        line-height: 44px;
+        margin: 35px 0 50px;
+    }
+}
+  
+  
+[class*='col-'] {
+    /* border: 1px solid #333333; */
+}
+
+.logo-container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.logo-container li{
+    display: inline-block;
+    width: 35px;
+    height: 17px;
+    margin-right: 10px;
+}
+@media only screen and (min-width: 768px) {
+    .logo-container li{
+        width: 50px;
+        height: 25px;
+    }
+}
+
+.logo-container li img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+.footerLinks {
+    font-size: 16px;
+    padding-left: 0;
+    color: #5d5b5b;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .footerLinks {
+        margin-top: 40px;
+    }
+}
+.footerLinks li:not(:last-child) {
+    padding-bottom: 20px;
+}
+.marginLeft50 {
+    margin-left: 50px;
+}
+/** copyright **/
+.alignItemCenter {
+    align-items: center;
+}
+.fontSize12 {
+    font-size: 12px;
+    color: #7f7e7e;
+}
+.borderTop {
+    border-top: 1px solid #979797;
+}
+/** start Social icons */
+.socialIcons {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (min-width: 768px) {
+    .socialIcons {
+        text-align: right;
+    }
+}
+
+.socialIcons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.socialIcons li:last-child {
+    margin-right: 0;
+}
+/** End Social icons */

@@ -1,0 +1,21 @@
+/* Table style */
+
+table{
+    width:100%;
+    table-layout: fixed;
+    overflow-wrap: break-word;
+    border-collapse: collapse;
+    font-family: Helvetica, Arial, sans-serif;
+}
+th {
+    text-align: left;
+}
+td {
+    font-size: 14px;
+    color: grey;
+}
+
+td, th {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
