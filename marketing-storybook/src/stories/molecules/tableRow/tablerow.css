@@ -1,0 +1,15 @@
+
+
+th, td {
+    width: 100%;
+}
+th {
+    text-transform: capitalize;
+}
+
+td {
+    color: #131212;
+}
+td:last-child {
+    text-align: right;
+}

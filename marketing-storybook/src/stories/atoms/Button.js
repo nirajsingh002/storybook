@@ -48,5 +48,4 @@ Button.propTypes = {
 Button.defaultProps = {
   backgroundColor: null,
   isActive: false,
-  onClick: undefined,
 };

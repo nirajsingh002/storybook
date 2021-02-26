@@ -9,6 +9,7 @@
     line-height: 1;
     position: relative;
     background: none;
+    outline: none;
   }
   .storybook-button--accordion:before {
     content: '';
@@ -19,6 +20,10 @@
     border-radius: 50%;
     display: inline-block;
     position: absolute;
+    right: 0px;
+    top: 15px;
+  }
+  .accordion.storybook-button--accordion:before {
     right: 32px;
     top: 15px;
   }
@@ -52,8 +57,12 @@
     padding: 2px; 
     position: absolute;
     top: 23px;
-    right: 40px;
+    right: 8px;
     
+  }
+  .accordion.arrow:after {
+    top: 23px;
+    right: 40px;
   }
   .storybook-button--secondary.arrow:after {
     border-color: #1955A6;
