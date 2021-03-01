@@ -11,11 +11,11 @@ module.exports = {
   "refs": {
     "foundation": { 
       "title": "Foundation",
-      "url": 'https://60393ba8f6e2d50023fa127c-lmmzfgjlmy.chromatic.com/?path=/story/molecules-dropdowns--menu-item'
+      "url": 'http://localhost:6007'
     },
     "marketing": { 
       "title": "Marketing",
-      "url": 'https://60393ba8f6e2d50023fa127c-wlfrldaane.chromatic.com/?path=/story/atoms-button--accordion-button'
+      "url": 'http://localhost:6008' 
     },
   }
 }

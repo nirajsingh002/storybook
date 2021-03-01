@@ -1,4 +1,6 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import logo from '../../foundation-storybook/src/stories/assets/images/facebook-logo.png';
+
 import './App.css';
 
 function App() {

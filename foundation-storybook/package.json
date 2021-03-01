@@ -43,6 +43,11 @@
     "@storybook/addon-links": "^6.1.18",
     "@storybook/node-logger": "^6.1.18",
     "@storybook/preset-create-react-app": "^3.1.6",
-    "@storybook/react": "^6.1.18"
-  }
+    "@storybook/react": "^6.1.18",
+    "postinstall": "^0.7.0"
+  },
+  "module": "dist-es6/buttons/Button",
+  "prebuild": "rimraf dist dist-es6",
+  "build": "babel components — out-dir dist-es6 — source-maps inline",
+  "postinstall": "postinstall-build --only-as-dependency dist"
 }

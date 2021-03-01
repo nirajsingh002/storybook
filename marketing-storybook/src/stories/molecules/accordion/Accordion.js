@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Button } from "../../atoms/Button";
+// import { Button } from "../../atoms/Button";
+import { Button } from '../../../../../foundation-storybook/src/stories/atoms/buttons/Button';
 import "./accordion.css";
 import { TableRow } from "../tableRow/TableRow";
 
